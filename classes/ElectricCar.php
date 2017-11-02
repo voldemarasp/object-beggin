@@ -14,4 +14,8 @@ class ElectricCar extends Car {
 		echo "Charging...<br>";
 	} 
 
+	public function go() {
+		echo "this electric car is going";
+	}
+
 }
